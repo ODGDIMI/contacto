@@ -206,27 +206,29 @@
       border-radius: 18px;
     }
 
-    .edificio {
-      width: 58px;
-      height: 58px;
-      display: grid;
-      place-items: center;
-      border-radius: 50%;
-      background: white;
-      color: var(--dorado);
-      border: 1px solid #ead8af;
-    }
+  .edificio {
+  width: 72px;
+  height: 72px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  background: white;
+  color: var(--dorado);
+  border: 1px solid #ead8af;
+  flex-shrink: 0;
+}
 
-    .edificio svg {
-      width: 30px;
-      height: 30px;
-      stroke: currentColor;
-      fill: none;
-      stroke-width: 2.1;
-      stroke-linecap: round;
-      stroke-linejoin: round;
-    }
-
+.edificio svg {
+  width: 46px;
+  height: 46px;
+  display: block;
+  stroke: currentColor;
+  fill: none;
+  stroke-width: 1.8;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+}
     .direccion strong {
       display: block;
       margin-bottom: 4px;
