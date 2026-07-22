@@ -195,7 +195,7 @@
 
     .direccion {
       display: grid;
-      grid-template-columns: 58px 1fr;
+      grid-template-columns: 72px 1fr;
       align-items: center;
       gap: 16px;
       margin: 0 28px 28px;
@@ -208,29 +208,25 @@
 .edificio {
   width: 72px;
   height: 72px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
+  display: grid;
+  place-items: center;
   border-radius: 50%;
   background: white;
   color: var(--dorado);
   border: 1px solid #ead8af;
-  flex-shrink: 0;
   overflow: hidden;
 }
+
 .edificio svg {
-  width: 52px;
-  height: 52px;
+  width: 48px;
+  height: 48px;
   display: block;
   stroke: currentColor;
   fill: none;
   stroke-width: 1.8;
   stroke-linecap: round;
   stroke-linejoin: round;
-  transform: translate(2px, 2px) scale(1.08);
-  transform-origin: center;
 }
-
     .direccion strong {
       display: block;
       margin-bottom: 4px;
