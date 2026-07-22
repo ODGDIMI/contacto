@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="es">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" />
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -198,16 +199,27 @@
       border-radius: 18px;
     }
 
-    .edificio {
-      width: 58px;
-      height: 58px;
-      display: grid;
-      place-items: center;
-      border-radius: 50%;
-      background: white;
-      color: var(--dorado);
-      border: 1px solid #ead8af;
-    }
+   .edificio{
+    width:58px;
+    height:58px;
+
+    display:flex;
+    align-items:center;
+    justify-content:center;
+
+    border-radius:50%;
+    background:#ffffff;
+    border:1px solid #e4c98d;
+
+    color:#b88a27;
+
+    font-family:"Material Symbols Outlined";
+    font-size:34px;
+    font-weight:normal;
+    line-height:1;
+
+    user-select:none;
+} 
 
     .edificio svg {
       width: 34px;
@@ -419,10 +431,8 @@
     </section>
 
     <section class="direccion" aria-label="Dirección institucional">
-     <span class="edificio" aria-hidden="true">
-    <svg viewBox="0 0 24 24" fill="currentColor">
-        <path d="M4 21V5a2 2 0 0 1 2-2h8a2 2 0 0 1 2 2v4h2a2 2 0 0 1 2 2v10H4zm4-14h2v2H8V7zm4 0h2v2h-2V7zM8 11h2v2H8v-2zm4 0h2v2h-2v-2zM8 15h2v2H8v-2zm4 0h2v2h-2v-2zm5-2h1v6h-1v-6z"/>
-    </svg>
+ <span class="edificio material-symbols-outlined" aria-hidden="true">
+apartment
 </span>
 
       <span>
